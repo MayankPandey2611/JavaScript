@@ -86,6 +86,7 @@
 // alert("you have "+ans.length +" letters")
 
 
+// --------------TASK 7.------------------//
 
 let orange = ()=>{
     let show = document.querySelector("#box")

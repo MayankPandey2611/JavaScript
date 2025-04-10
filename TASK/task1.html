@@ -1,54 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #main{
+                                                      /* TASK 1 */
+        #main {
             width: 600px;
             height: 500px;
             /* background-color: grey; */
             background-image: url(coffee.jpeg);
-   
-           margin-left: 30%;
+
+            margin-left: 30%;
         }
-        #box{
+
+        #box {
             display: flex;
             justify-content: space-evenly;
         }
-        #box1{
+
+        #box1 {
             width: 200px;
             height: 200px;
             /* background-color: green; */
             background-image: url(https://tse3.mm.bing.net/th?id=OIP.U_VJuupQohwnzXcKMztqWgHaEo&pid=Api&P=0&h=180);
-   
+
         }
-        #box2{
+
+        #box2 {
             width: 200px;
             height: 200px;
             /* background-color: red; */
             background-image: url(https://tse3.mm.bing.net/th?id=OIP.j4KdqaXpnhbN94WzVyHUhAHaE8&pid=Api&P=0&h=180);
 
         }
-        #box3{
+
+        #box3 {
             width: 200px;
             height: 200px;
             /* background-color: black; */
             background-image: url(https://themewagon.github.io/Coffo/images/img-1.png);
-          
+
         }
+
+        /* #box1:hover{
+            transition: all ease 1s;
+            transform: scale(1.1);
+        }
+        #box2:hover{
+            transition: all ease 1s;
+            transform: scale(1.1);
+        }
+        #box3:hover{
+            transition: all ease 1s;
+            transform: scale(1.1);
+        } */
     </style>
 </head>
+
 <body>
-    <div id="main"></div>
+
+                                                         <!-- TASK 1 -->
+
+    <!-- <div id="main"></div>
     <br>
     <div id="box">
-    <div id="box1" onclick="image1()"></div>
-    <div id="box2" onclick="image2()"></div>
-    <div id="box3" onclick="image3()"></div>
-</div>
+    <div id="box1"  onmouseenter="image1()"></div>
+    <div id="box2" onmouseenter="image2()"></div>
+    <div id="box3" onmouseenter="image3()"></div>
+    </div> -->
+
+                                                        <!-- TASK 2 -->
+
+    <!-- <p id="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus qui nulla quo, minus voluptate ad corrupti,
+        cupiditate mollitia sapiente recusandae facere amet possimus quia vel fuga maiores nisi illum est?</p>
     
+        <button onclick="change()" >20px</button>
+        <button onclick="hide()" >hide</button>
+        <button onclick="unhide()" >unhide</button>
+        <button onclick="reset()" >reset</button> -->
+
+
+
+                                                        <!-- TASK 3 -->
+
+<div id="counting">0</div>
+<button onclick="incre()">+</button>
+<button onclick="decre()">-</button>
+
+
     <script src="task1.js"></script>
 </body>
+
 </html>
