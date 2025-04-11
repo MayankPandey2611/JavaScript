@@ -47,15 +47,38 @@
 
 // ------------------------------------------------INCREMENT AND DRECMENT COUNTING TASK-----------------------------------------------//
 
-let count = 0;
+// let count =0;
 
-let incre = ()=>{
+// let incre = ()=>{
     
-    let show = document.querySelector("#counting");
-    show.innerHTML= count++;
-}
-let decre = ()=>{
+//     let show = document.querySelector("#counting");
+//     count++;
+//         show.innerHTML= count;
     
-    let show = document.querySelector("#counting");
-    show.innerHTML= count--;
+   
+// }
+// let decre = ()=>{
+
+    
+//     let show1 = document.querySelector("#counting");
+//     if(count>0){
+//         count--;
+//         show1.innerHTML= count;
+//     }
+    
+// }
+
+// let reset = ()=>{
+//     let show2 = document.querySelector("#counting")
+//     show2.innerHTML = 0;
+// }
+
+
+//-----------------------------------------SHOW THE GIVEN INPUT IN ALERT BOX-----------------------------------------------// 
+
+let SHOW =()=>{
+    
+    let show  = document.querySelector("#name").value
+    alert(show)
+
 }
