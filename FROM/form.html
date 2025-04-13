@@ -4,30 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
+    <br>
     
 
-    <form action="">
-        
+
+    <form   action="https://api.web3forms.com/submit" method="POST" id="contact">
+        <div id="box">
+            <input type="hidden" name="access_key" value="1165146f-0a98-4e84-8147-ad199933cd38">
         <p id="errname"></p>
-        Enter Name : <input type="text"  id="name"> <br><br>
+       &emsp; Enter Name : <br><br> <input class="content" type="text"  id="name" placeholder=""> <br><br>
 
         <p id="errnumber"></p>
-        Enter Number : <input type="text"  id="Number"> <br><br>
+        &emsp; Enter Number : <br><br>  <input class="content" type="text"  id="Number"  placeholder=""> <br><br>
 
         <p id="erremail"></p>
-        Enter Email : <input type="text"  id="Email"> <br><br>
+        &emsp;Enter Email : <br><br>  <input class="content" type="text"  id="Email"  placeholder=""> <br><br>
 
         <p id="errpass"></p>
-        Enter Password : <input type="number"  id="Password"> <br><br>
+        &emsp;Enter Password : <br><br>  <input class="content" type="number"  id="Password"  placeholder=""> <br><br>
         
         <p id="errcpass"></p>
-         Confirm Password : <input type="number"  id="cPassword"> <br><br>
+        &emsp; Confirm Password : <br><br>  <input class="content" type="number"  id="cPassword"  placeholder=""> <br><br><br>
 
-      <input type="submit" value="login" onclick="return val()">
+    <input class="send" type="submit" value="Login" onclick="return val()" >
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+    </div>
     </form>
+
     <script src="form.js"></script>
 </body>
 </html>
