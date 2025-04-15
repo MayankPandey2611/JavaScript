@@ -76,9 +76,22 @@
 
 //-----------------------------------------SHOW THE GIVEN INPUT IN ALERT BOX-----------------------------------------------// 
 
+
 let SHOW =()=>{
     
-    let show  = document.querySelector("#name").value
-    alert(show)
+    let show = document.querySelector("#text")
+    let btn=  document.querySelector("#Button")
+
+    if( show.style.display == "none"){
+        show.style.display = "block"
+        btn.innerHTML = "hide "
+    }
+    
+    else{
+        show.style.display = "none"
+        btn.innerHTML = "show "
+   
+    }
 
 }
+
