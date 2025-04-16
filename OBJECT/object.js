@@ -49,18 +49,61 @@
 // 2. TO COPY EXISTING OBJECTS / ARRAYS INTO A NEW ONE.
 
 
-let obj2 = {
-    Name : "Mayank",
-    Language : "JAVASCRIPT"
-}
+// let obj2 = {
+//     Name : "Mayank",
+//     Language : "JAVASCRIPT"
+// }
 
-let obj3 ={
-    age : 21,
-    city:"bhopal"
-}
+// let obj3 ={
+//     age : 21,
+//     city:"bhopal"
+// }
 
-// SPREAD (...)
-let merge = {...obj2 , ...obj3};
+// // SPREAD (...)
+// let merge = {...obj2 , ...obj3};
 
-console.log(merge);
+// console.log(merge);
 
+
+
+//-------------------------------------------FOR IN LOOP------------------------------------------------//
+//  USED TO GET THE KEY VALUES IN OBJECT.
+
+// let obj = {
+//     name : "mayank",
+//     age:21,
+//     city:"bhopal"
+// }
+
+
+// for(let key in obj){
+//     // console.log(key);
+//     console.log(key);
+    
+// }
+
+
+
+//---------------------------------------------FOR OF LOOP--------------------------------------------------//
+//  
+
+// let arr = ["ok","hello","hii"]
+
+// for(let elements of arr){
+//     console.log(elements);
+    
+// }
+
+
+
+//---------------------------------------------MAP FUNCTION----------------------------------------------------//
+//  IT ACCESS / INTERATE THE EVERY VALUE OF THE ARRAY AND RETURNS THE NEW ARRAY.
+// e = EVENT / ELEMENT 
+
+let arr = [1,2,3,4,5]
+
+let newarr = arr.map( (e)=>{
+    return e*2;
+})
+
+console.log(newarr);
