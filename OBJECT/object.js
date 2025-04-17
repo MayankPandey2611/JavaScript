@@ -97,13 +97,47 @@
 
 
 //---------------------------------------------MAP FUNCTION----------------------------------------------------//
+
 //  IT ACCESS / INTERATE THE EVERY VALUE OF THE ARRAY AND RETURNS THE NEW ARRAY.
 // e = EVENT / ELEMENT 
+// CALL BACK FUNCTION = > FUNCTION WHICH IS PASSED IN A PARAMETER.
+// HIGH ORDER FUNCTION => FUNCTION WHICH GETS THE PARAMETER.
 
-let arr = [1,2,3,4,5]
+// let arr = [1,2,3,4,5]
 
-let newarr = arr.map( (e)=>{
-    return e*2;
+// let newarr = arr.map( (e)=>{
+//     // MAP = HIGH ORDER FUNCTION
+//     // POORA ARROW FUNCTION = CALL BACK FUNCTION
+//     return e*2;
+// })
+
+// console.log(newarr);
+
+
+//-------------------------------------------------FILTER FUNCTION----------------------------------------//
+
+// SYNTAX IS SAME AS MAP FUNCTION.
+
+// let arr1 =[1,4,7,9,8]
+
+// let newarr1 = arr1.filter( (e)=>{
+//     return e>6;
+// })
+
+// console.log(newarr1);
+
+
+
+//----------------------------------------------FOR EACH LOOP-------------------------------------------//
+
+// SAME AS MAP AND FILTER BUT PRINT ANSWER IN STRING FORM.
+// REARERLY USED
+
+let arr2 =[1,2,3,4,5]
+
+let newarr2 = arr2.forEach( (e)=>{
+    //PRINT EVEN NUMBERS
+    console.log(e%2==0);
+
+    
 })
-
-console.log(newarr);
