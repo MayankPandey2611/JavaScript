@@ -4,51 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
 </head>
 <body>
-    <table border="1px" cellpadding="10px" cellspacing="10px">
+    <div id="box">
+    <table border="1px" cellpadding="10px" cellspacing="10px" class="t">
         <tr>
             <th colspan="4" id="display"></th>
         </tr>
 
         <tr>
-            <td onclick="cal('1')">1</td>
-            <td onclick="cal('2')">2</td>
-            <td onclick="cal('3')">3</td>
-            <td onclick="cal('4')">4</td>
+            <td onclick="del()" class="operator1">DEL</td>
+            <td onclick="allclear()" class="operator1">AC</td>
+            <td onclick="cal('%')"  class="operator">%</td>
+            <td onclick="cal('/')"  class="operator">/</td>
+          
         </tr>
 
         <tr>
-            <td onclick="cal('5')">5</td>
-            <td onclick="cal('6')" >6</td>
-            <td onclick="cal('7')">7</td>
-            <td onclick="cal('8')">8</td>
+            <td onclick="cal('7')" class="input">7</td>
+            <td onclick="cal('8')" class="input">8</td>
+            <td onclick="cal('9')" class="input">9</td>
+            <td onclick="cal('*')"  class="operator">*</td>
         </tr>
 
         <tr>
-            <td onclick="cal('9')">9</td>
-            <td onclick="cal('0')">0</td>
-            <td onclick="cal('00')">00</td>
-            <td onclick="cal('.')">.</td>
+          
+            <td onclick="cal('4')" class="input">4</td>
+            <td onclick="cal('5')" class="input">5</td>
+            <td onclick="cal('6')" class="input">6</td>
+            <td onclick="cal('-')"  class="operator">-</td>
         </tr>
-
 
         <tr>
-            <td onclick="cal('*')">*</td>
-            <td onclick="cal('/')">/</td>
-            <td onclick="cal('+')">+</td>
-            <td onclick="cal('-')">-</td>
+          
+            <td onclick="cal('1')" class="input">1</td>
+            <td onclick="cal('2')" class="input">2</td>
+            <td onclick="cal('3')" class="input">3</td>
+            <td onclick="cal('+')" class="operator">+</td>
+          
         </tr>
-
 
         <tr>
-            <td onclick="cal('%')">%</td>
-            <td>DEL</td>
-            <td>AC</td>
-            <td onclick="result()">=</td>
+            <td onclick="cal('00')" class="input">00</td>
+            <td onclick="cal('0')" class="input">0</td>
+            <td onclick="cal('.')" class="input">.</td>
+            <td onclick="result()" class="eqn">=</td>
         </tr>
+
     </table>
-
+</div>
     <script src="calculator.js"></script>
 </body>
 </html>
