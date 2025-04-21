@@ -28,10 +28,16 @@
 
 // console.log(arr[mydate.getDay()]);
 
-setInterval(() => {
-    let mydate = new Date()
-    let show = document.querySelector("#display")
-    show.innerHTML =`Hours = ${mydate.getHours()}  : minutes =  ${mydate.getMinutes()} :  seconds = ${mydate.getSeconds()} `
-}, 1000);
+// setInterval(() => {
+//     let mydate = new Date()
+//     let show = document.querySelector("#display")
+//     show.innerHTML =`Hours = ${mydate.getHours()}  : minutes =  ${mydate.getMinutes()} :  seconds = ${mydate.getSeconds()}`
+// }, 1000);
 
+//-----------------------------------------MATH.RANDOM =>  IT GENERATES RANDOM NUMBERS FROM 0 TO 1----------------------------------------//
 
+// QUES 1. GENERATE RANDOM OTP.
+// console.log(Math.round(Math.random()*10000));   // FIRST METHOD.
+
+console.log(Math.round(Math.random()))*9000;    
+                                          
