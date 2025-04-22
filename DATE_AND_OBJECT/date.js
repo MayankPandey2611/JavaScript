@@ -34,10 +34,16 @@
 //     show.innerHTML =`Hours = ${mydate.getHours()}  : minutes =  ${mydate.getMinutes()} :  seconds = ${mydate.getSeconds()}`
 // }, 1000);
 
-//-----------------------------------------MATH.RANDOM =>  IT GENERATES RANDOM NUMBERS FROM 0 TO 1----------------------------------------//
+
+
+//-------------------------------------------------------SOME MATH METHODS----------------------------------------------------------//
+
+//1. MATH.RANDOM =>  IT GENERATES RANDOM NUMBERS FROM 0 TO 1.
+//2. MATH.FLOOR => IT IGNORES THE DECIMAL PLACE VALUES.
+//3. MATH.TRANC => IT TAKES NEAREST INTEGETR VALUE FOR EXAMPLE IN BOTH CASES OF 4.3 OR 4.7 THE ANSWER IS 4.
 
 // QUES 1. GENERATE RANDOM OTP.
 // console.log(Math.round(Math.random()*10000));   // FIRST METHOD.
 
-console.log(Math.round(Math.random()))*9000;    
+console.log(Math.floor(1000 + Math.random() * 9000));    // SECOND METHOD
                                           

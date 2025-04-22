@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="alarm.css">
 </head>
 <body>
+     
+    <div id="box">
     <input type="time" id="settime">
+    <br><br>
+    <button onclick="setalarm()" id="set">Set Alarm</button> &ensp;<button onclick="stopalarm()" id="stop">Stop Alarm</button>
 
-    <button onclick="setalarm()">Set Alarm</button>
-    <button onclick="stopalarm()">Stop Alarm</button>
+    
+    <br><br>
+    <button onclick="reset()" id="reset">Reset Alarm</button>
     <audio src="alarm-327234.mp3" id="audioo"></audio>
     <h1 id="show"></h1>
-
+</div>
     <script src="alarm.js"></script>
 </body>
 </html>
