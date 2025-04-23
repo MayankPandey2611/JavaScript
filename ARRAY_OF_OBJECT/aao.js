@@ -10,38 +10,49 @@ let obj ={
 
 let arrayOfObject = [ {
 
-    name : "mayank",
+    name : "Mayank",
     age : 21,
-    city : "bhopal"
+    city : "Bhopal",
+    Gender : "Male"
 
 }, {
 
-    name : "ayush",
+    name : "Ayushi",
     age : 24,
-    city : "indore"
+    city : "Indore",
+    Gender : "Female"
 
 }, {
 
-    name : "piyush",
+    name : "Piyush",
     age : 19,
-    city : "rewa"
+    city : "Rewa",
+    Gender : "Male"
 
+},{
+
+    name:"Yash",
+    age:21,
+    city:"Pune",
+    Gender : "Male"
+    
 }]
 
 console.log(arrayOfObject[0]);
 
 
-let display = document.querySelector("#show")
+let display = document.querySelector("#showdata")
 
 arrayOfObject.map( (e)=>{
 
     display.innerHTML += `
-    <div>
-    <h1>name :- ${e.name}  </h1>
-    <h1>age :- ${e.age}  </h1>
-    <h1>city :- ${e.city}  </h1>
+    <tr>
+    <td> ${e.name}  </td>
+    <td> ${e.age}  </td>
+    <td> ${e.city}  </td>
+    <td> ${e.Gender}  </td>
     
-    </div>
+    </tr>
     `
 
 })
