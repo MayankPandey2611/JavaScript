@@ -22,6 +22,7 @@ let setalarm = () => {
     }, 1000);
 };
 
+
 let stopalarm = () => {
     let audiosound = document.querySelector("#audioo");
     audiosound.pause();

@@ -36,17 +36,18 @@
 //     College :"SIRT"
 // }
 // // DESTRUCTURING...
-// let {Name,Age}=obj1;
+// let {Name,Age,City}=obj1;
 
 // console.log(Name);
 // console.log(Age);
+// console.log(City);
 
 
 
 //--------------------------------------------SPREAD OPERATOR(...)---------------------------------------------------//
 
 // 1. USED TO MERGE OBJECTS OR ARRAY.
-// 2. TO COPY EXISTING OBJECTS / ARRAYS INTO A NEW ONE.
+// 2. USED TO COPY EXISTING OBJECTS / ARRAYS INTO A NEW ONE.
 
 
 // let obj2 = {
@@ -67,7 +68,7 @@
 
 
 //-------------------------------------------FOR IN LOOP------------------------------------------------//
-//  USED TO GET THE KEY VALUES IN OBJECT.
+//  USED TO GET THE KEY FROM THE OBJECT.
 
 // let obj = {
 //     name : "mayank",
@@ -85,7 +86,7 @@
 
 
 //---------------------------------------------FOR OF LOOP--------------------------------------------------//
-//  
+ 
 
 // let arr = ["ok","hello","hii"]
 
@@ -128,16 +129,17 @@
 
 
 
-//----------------------------------------------FOR EACH LOOP-------------------------------------------//
+//----------------------------------------------FOR EACH FUNCTION / LOOP-------------------------------------------//
 
 // SAME AS MAP AND FILTER BUT PRINT ANSWER IN STRING FORM.
 // REARERLY USED
+// NOT SUPPORT RETURN FUNCTION
 
-let arr2 =[1,2,3,4,5]
+// let arr2 =[1,2,3,4,5]
 
-let newarr2 = arr2.forEach( (e)=>{
-    //PRINT EVEN NUMBERS
-    console.log(e%2==0);
+// let newarr2 = arr2.forEach( (e)=>{
+//     //PRINT EVEN NUMBERS
+//     console.log(e%2==0);
 
-    
-})
+// })
+

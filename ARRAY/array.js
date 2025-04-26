@@ -13,7 +13,7 @@
 // 7. SPLICE => IT REMOVES AND ADDS IN PLACE OF THAT GIVEN INDEXED ELEMENT.
 
 
-// let names = ["mayank","lucky","ram","ayush"];
+let names = ["mayank","lucky","ram","ayush"];
 
 // console.log(names[2]);
 

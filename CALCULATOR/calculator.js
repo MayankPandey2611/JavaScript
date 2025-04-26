@@ -1,4 +1,3 @@
-
 let store = ''
 
 let cal=(value)=>{

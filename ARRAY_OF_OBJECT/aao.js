@@ -38,6 +38,7 @@ let arrayOfObject = [ {
     
 }]
 
+
 console.log(arrayOfObject[0]);
 
 

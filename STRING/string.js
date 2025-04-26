@@ -1,7 +1,7 @@
 // -----------------------------METHODS OF STRINGS--------------------------------//
 
-// let a1 = "hello mayank";
-// let a2 = " EVERYONE";
+let a1 = "hello mayank";
+let a2 = " EVERYONE";
 
  // 1.RETURNS LENGTH OF A STRING..
 
@@ -17,13 +17,14 @@
 
 //  console.log(a1.charAt(2));  
 
- //6. CHARCODEAT
+ //6. CHARCODEAT => RETURNS ASCII VALUES
 
-//  console.log(a1.charCodeAt(0)); 
+//  console.log(a1.charCodeAt(7)); 
 
  // 7. SLICE
 
-//  document.write(a1.slice(6,12)); 
+//  console.log(a1.slice(6,12));
+
 
 // 8. REPLACE =>  IT REPLACES THE SAME TEXT WITH DIFFERENT GIVEN TEXT...
 
@@ -39,7 +40,7 @@
 
 // document.write(s.replace(/Javascript/g,"HTML"));
 
-//8.(3) gi => CASE INSENSITIVE
+//8.(3) gi => IT ALLOWS CASE INSENSITIVE ALSO
 
 // document.write(s.replace(/Javascript/gi,"HTML"));
 

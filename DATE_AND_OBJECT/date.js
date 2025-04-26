@@ -45,5 +45,5 @@
 // QUES 1. GENERATE RANDOM OTP.
 // console.log(Math.round(Math.random()*10000));   // FIRST METHOD.
 
-console.log(Math.floor(1000 + Math.random() * 9000));    // SECOND METHOD
+// console.log(Math.floor(1000 + Math.random() * 9000));    // SECOND METHOD
                                           
