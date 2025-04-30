@@ -37,11 +37,10 @@
 // var a= 5;
 // var a=2;
 
+//------------NOT ALLOWED..
 
 // let b=3;
 // let b=8;
-
-//------------NOT ALLOWED..
 
 // const c= 1;
 // const c=1;
